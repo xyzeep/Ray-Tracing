@@ -1,6 +1,6 @@
-# Ray-Casting in SDL3
+# Ray-Tracing in SDL3
 ## What is this?
-My own implementation of a simple ray casting algorithm using C and SDL3. The program simulates a light source that emits rays and when a ray hits an opaque object (circle), it is blocked, creating the effect of shadows. The goal is to visualize how light interacts with opaque objects on a foundational level.
+My own implementation of a simple ray tracing using C and SDL3. The program simulates a light source that emits rays and when a ray hits an opaque object (circle), it is blocked, creating the effect of shadows. The goal is to visualize how light interacts with opaque objects on a foundational level.
 
 ![Screenshot](src/Screenshot.png)
 ## Componenets
@@ -14,7 +14,7 @@ My own implementation of a simple ray casting algorithm using C and SDL3. The pr
 Not sure which one? Just download the `SDL3-devel-3.2.4-mingw.zip`.
 * **Linux**: Run `sudo apt-get install libsdl3-dev`. If this doesn't work, please figure out how to make it work because I don't speak Linux (yet).
 2. Clone the repository:
-`git clone https://github.com/xyzeep/Ray-Casting.git`
+`git clone https://github.com/xyzeep/Ray-Tracing.git`
 3. Run the build file:
 `build.bat`  <br>
 All the source files are inside the directory, so there's no need to tweak anything.
